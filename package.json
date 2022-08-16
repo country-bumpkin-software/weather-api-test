@@ -1,0 +1,28 @@
+{
+  "name": "weather-api-test",
+  "version": "1.0.0",
+  "description": "testing the weather api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./src/weather.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/country-bumpkin-software/weather-api-test.git"
+  },
+  "author": "jwilliams",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "prettier": "2.7.1",
+    "supertest": "^6.2.4",
+    "uuid": "^8.3.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/country-bumpkin-software/weather-api-test/issues"
+  },
+  "homepage": "https://github.com/country-bumpkin-software/weather-api-test#readme"
+}
